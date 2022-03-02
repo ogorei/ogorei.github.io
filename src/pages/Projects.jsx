@@ -3,22 +3,17 @@ import Hero from '../components/Hero';
 import SmallProject from '../components/SmallProject';
 
 
-function Projects (props){ 
-
+function Projects (props){
   const cardBackground={
     backgroundColor:'#323232',
     margin: '10px'
   }
 
-    return ( 
+    return (
  <div>
    <Hero title={props.title} description={props.subtitle} />
    <SmallProject />
-   
-
 </div>
 
     )};
-  
-
 export default Projects;

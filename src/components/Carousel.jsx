@@ -30,10 +30,6 @@ function Carousel ({data}) {
                       </div>
                   </Col>
               </Row>
-
-
-
-
         </div>
       </div>
 

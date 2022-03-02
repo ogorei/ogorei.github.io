@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import reina from '../assests/reinaSu.jpeg';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
-import style from '../Styles/CardStyle.css';
 
 const CardLayout =()=>{
     return (
@@ -31,23 +30,18 @@ const CardLayout =()=>{
               <Row> 
                   <Col className="d-flex justify-content-start">
                       <div className="py-3"> 
-                          <a href="https://www.behance.net/ogorei" target="_blank">
+                          <a href="https://github.com/ogorei/" target="_blank">
                           <Button size="sm" variant="outline-success">GitHub</Button>
                           </a>
                       </div>
                       <div className="py-3"> 
-                          <a href="https://github.com/reinaogo1">
-                          <Button size="sm"  variant="outline-primary">Behance</Button>
+                          <a href="https://zenn.dev/ogorei">
+                          <Button size="sm"  variant="outline-primary">ZENN</Button>
                           </a>
                       </div>
                   </Col>
               </Row>
-
-
-
             </Col>
-
-            <Row> </Row>
           </Row>
         </Container>
       </div>
