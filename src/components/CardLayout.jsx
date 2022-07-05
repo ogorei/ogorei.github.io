@@ -30,7 +30,7 @@ const CardLayout =()=>{
               <Row> 
                   <Col className="d-flex justify-content-start">
                       <div className="py-3"> 
-                          <a href="https://github.com/ogorei/" target="_blank">
+                          <a href="https://github.com/ogorei/">
                           <Button size="sm" variant="outline-success">GitHub</Button>
                           </a>
                       </div>

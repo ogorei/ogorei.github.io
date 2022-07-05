@@ -39,14 +39,14 @@ class App extends React.Component {
    return(
      <div>
      <Container fluid={true}>
-     <Navbar className="top-nav">
-     <Navbar.Brand>[O.R]</Navbar.Brand>
+     <Navbar className="top-nav bg-dark">
+     <Navbar.Brand></Navbar.Brand>
      <Navbar.Toggle className="border-0"></Navbar.Toggle>
      <Navbar.Collapse id="navbar-toggle">
 
      <Nav className="ml-auto">
-     <Link className="nav-link" to="/">Home</Link>
-     <Link className="nav-link" to="/projects">Projects</Link>
+     <Link className="nav-link text-white" to="/">Home</Link>
+     <Link className="nav-link text-white" to="/projects">Projects</Link>
      </Nav>
      </Navbar.Collapse>
      </Navbar>
